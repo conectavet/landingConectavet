@@ -47,11 +47,11 @@
   --tg-body-line-height: 1.75;
   --tg-heading-line-height: 1.2;
   --tg-body-color: #445374;
-  --tg-heading-color: #002169;
-  --tg-theme-primary: #894B8D;
-  --tg-theme-secondary: #002169;
-  --tg-color-dark-blue: #0E104B;
-  --tg-color-dark-blue-2: #001950;
+  --tg-heading-color: #ff9340;
+  --tg-theme-primary: #58a4a6;
+  --tg-theme-secondary: #f89556;
+  --tg-color-dark-blue: #46a8a7;
+  --tg-color-dark-blue-2: #46a8a7;
   --tg-color-light-blue: #37528E;
   --tg-color-yellow-default: #FFBE17;
   --tg-color-yellow-light: #F9EADC;
@@ -1253,7 +1253,7 @@ textarea {
 }
 
 .tg-header__top {
-  background: var(--tg-theme-secondary);
+  background: #58a4a6;
   padding: 12px 0;
 }
 @media (max-width: 767.98px) {
@@ -1868,7 +1868,7 @@ textarea {
   font-size: 16px;
   gap: 5px;
   padding: 17px 24px 15px 24px;
-  background: linear-gradient(90deg, #80397E 5.39%, #9F59A4 100%);
+  background: linear-gradient(90deg, #ff934ab3 5.39%, #ff934a 100%);
 }
 .tgmenu__action ul .header-btn .btn i {
   line-height: 0;
@@ -8516,7 +8516,7 @@ textarea {
 }
 .counter__content p {
   margin-bottom: 30px;
-  color: var(--tg-color-gray-5);
+  color: #46a8a700;
   font-weight: 500;
 }
 .counter__img {
@@ -9384,7 +9384,7 @@ textarea {
 .registration__inner-wrap .form-grp input {
   width: 100%;
   border: none;
-  background: #113179;
+  background: #fff;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   -o-border-radius: 6px;
@@ -9421,7 +9421,7 @@ textarea {
   position: relative;
 }
 .registration__inner-wrap .form-grp.select-grp select {
-  background-color: #113179;
+  background-color: #fff;
   border: none;
   color: #5E76AC;
   font-weight: 600;
@@ -12024,8 +12024,8 @@ blockquote p {
   -o-border-radius: 30px;
   -ms-border-radius: 30px;
   border-radius: 30px;
-  border: 1px solid #15367D;
-  background: #0F2E72;
+  border: 1px solid #fff;
+  background: #21ada83b;
   padding: 45px 40px;
   text-align: center;
   margin-left: 75px;
@@ -12057,7 +12057,7 @@ blockquote p {
   -o-border-radius: 6px;
   -ms-border-radius: 6px;
   border-radius: 6px;
-  background: #1B3A80;
+  background: #fff;
   color: var(--tg-color-white-default);
   font-size: 14px;
   font-weight: 500;
