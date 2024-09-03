@@ -1181,7 +1181,7 @@ textarea {
   color: var(--tg-theme-primary);
 }
 .section__title.white-title .sub-title {
-  color: var(--tg-color-gray-5);
+  color: #58a4a6;
 }
 .section__title.white-title .sub-title svg {
   color: var(--tg-color-light-blue);
@@ -3377,8 +3377,8 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: var(--tg-color-yellow-default);
-  border: 8px solid var(--tg-color-white-default);
+  background: #46a8a7;
+  border: 8px solid #46a8a7;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -o-border-radius: 50%;
@@ -3429,7 +3429,7 @@ textarea {
   -ms-transform: translate(-50%, -50%);
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  color: var(--tg-color-dark);
+  color: #fff;
 }
 .healthy-pets .content .circle span {
   position: absolute;
@@ -8683,7 +8683,7 @@ textarea {
 .counter__item p {
   font-weight: 500;
   text-transform: capitalize;
-  color: var(--tg-color-gray-5);
+  color: #58a4a6;
   margin-bottom: 0;
 }
 .counter__item-two {
