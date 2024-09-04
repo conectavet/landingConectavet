@@ -52,7 +52,7 @@
   --tg-theme-secondary: #f89556;
   --tg-color-dark-blue: #46a8a7;
   --tg-color-dark-blue-2: #46a8a7;
-  --tg-color-light-blue: #37528E;
+  --tg-color-light-blue: #3c9493;
   --tg-color-yellow-default: #FFBE17;
   --tg-color-yellow-light: #F9EADC;
   --tg-color-white-default: #ffffff;
@@ -12800,5 +12800,75 @@ blockquote p {
     stroke-dashoffset: 0;
   }
 }
+.mobile-register-btn {
+  display: none;
+}
 
+/* Mostrar el botón solo en dispositivos móviles */
+@media (max-width: 768px) {
+  .mobile-register-btn {
+      display: inline-block;
+      margin-left: 10px;
+  }
+
+  .btn-register {
+    user-select: none;
+    -moz-user-select: none;
+    background: var(--tg-theme-secondary) none repeat scroll 0 0;
+    border: medium none;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -o-border-radius: 100px;
+    -ms-border-radius: 100px;
+    border-radius: 100px;
+    color: var(--tg-color-white-default);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1;
+    margin-bottom: 0;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    touch-action: manipulation;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    font-family: var(--tg-heading-font-family);
+    gap: 10px;
+    --arrow-hover-move-x: -110%;
+  }
+
+  .btn::before {
+    content: "";
+    position: absolute;
+    -webkit-transition-duration: 800ms;
+    transition-duration: 800ms;
+    width: 200%;
+    height: 200%;
+    top: 110%;
+    left: 50%;
+    background: var(--tg-theme-primary);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    z-index: -1;
+}
 /*# sourceMappingURL=main.css.map */
