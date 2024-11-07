@@ -7339,6 +7339,7 @@ textarea {
   gap: 10px;
   line-height: 1.2;
   margin-bottom: 15px;
+  margin-top: 15px;
 }
 .introducing__list-box .list-wrap li:last-child {
   margin-bottom: 0;
